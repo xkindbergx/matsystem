@@ -6,18 +6,21 @@
   "build": {
     "development": {
       "developmentClient": true,
-      "distribution": "internal"
+      "distribution": "internal",
+      "ios": {
+        "newArchEnabled": false
+      }
     },
     "preview": {
-      "distribution": "internal"
+      "distribution": "internal",
+      "ios": {
+        "newArchEnabled": false
+      }
     },
-    "production": {
+    "production_no_new_arch": {
       "autoIncrement": true,
-      "developmentClient": false,
-      "distribution": "store",
-      "env": {
-        "EXPO_NEW_ARCH_ENABLED": "0",
-        "RCT_NEW_ARCH_ENABLED": "0"
+      "ios": {
+        "newArchEnabled": false
       }
     }
   },
