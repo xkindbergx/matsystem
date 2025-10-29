@@ -7,7 +7,7 @@
     "icon": "./assets/images/icon.png",
     "scheme": "matsystem",
     "userInterfaceStyle": "automatic",
-    "newArchEnabled": true,
+    "newArchEnabled": false,
     "ios": {
       "bundleIdentifier": "com.kindberg.matsystemapp",
       "supportsTablet": true,
