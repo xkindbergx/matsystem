@@ -9,12 +9,13 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": false,
     "ios": {
-      "bundleIdentifier": "com.kindberg.matsystemapp",
-      "supportsTablet": true,
-      "infoPlist": {
-        "ITSAppUsesNonExemptEncryption": false
-      }
-    },
+  "bundleIdentifier": "com.kindberg.matsystemapp",
+  "supportsTablet": true,
+  "newArchEnabled": false,
+  "infoPlist": {
+    "ITSAppUsesNonExemptEncryption": false
+  }
+},
     "android": {
       "adaptiveIcon": {
         "backgroundColor": "#E6F4FE",
